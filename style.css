@@ -63,7 +63,7 @@ nav ul {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	color: white;
+	color: #F8EDED;
 	text-align: center;
 	text-shadow: 0px 0px 10px rgba(0,0,0,0.9);
 	background-color: rgba(0,0,0,.7);
@@ -87,7 +87,15 @@ nav ul {
 
 .heading {
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 27px;
+}
+
+.pozvanka { 
+   text-align: center;
+   font-size: 60px;
+   color: black;
+  text-shadow: 0px 0px 20px purple;
+  font-weight: 600;
 }
 
 .feature {
@@ -97,14 +105,14 @@ nav ul {
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
 }
 
-.feature h3 {
-    color: #333;
+.features h3 {
+    color: purple;
     margin-bottom: 10px;
 }
 
-.feature p {
-    color: #666;
-    font-size: 14px;
+.features p {
+    color: pruple;
+    font-size: 16px;
 }
 .features {
     display: flex; 
@@ -170,5 +178,15 @@ button:hover {
 
 .contact-box {
     flex: 2;
-    padding: 30px 40px;
+    padding: 30px 30px;
+
 }
+
+.contact-box a {
+text-decoration: none;
+  }
+
+.social-icons {
+  display: flex;
+  flex-direction: row;
+  }
